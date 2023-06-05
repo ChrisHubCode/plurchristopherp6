@@ -1,0 +1,20 @@
+.collapse {
+    display: flex;
+    flex-direction: column;
+    
+}
+.tape {
+    background-color: #FF6060;
+    display: flex;
+    justify-content: space-between;
+}
+.tape p {
+    color: white;
+}
+.collapse_open {
+    background-color: blue;
+}
+.collapse-close {
+    display: none;
+    
+}

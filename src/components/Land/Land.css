@@ -1,0 +1,22 @@
+.land-container{
+    max-height: 223px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+    margin-top: 68px;
+}
+.land-container img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    
+}
+.land-container p {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 48px;
+    
+}

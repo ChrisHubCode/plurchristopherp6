@@ -1,0 +1,19 @@
+.foot {
+    background-color: black;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding-top: 66px;
+}
+.foot img {
+    width: 15%;
+}
+.foot p {
+    color: white;
+;
+    
+}
