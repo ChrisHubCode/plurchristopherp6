@@ -29,27 +29,30 @@ const Caroussel = (props) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   }
 
-  return (
-    <div className="caroussel-container">
-      {currentImage}
-      <img
-        className="leftArrow"
-        src={previousArrow}
-        alt="image précédente"
-        onClick={prevSlide}
-      />
-      <img
-        className="rightArrow"
-        src={nextArrow}
-        alt="image suivante"
-        onClick={nextSlide}
-      />
-      <p className="caroussel-index">
-        {current + 1}/{length}
-      </p>
-      {/*<div key={index}></div>*/}
-    </div>
-  );
+  if (length > 1) {
+    return (
+      <div className="caroussel-container">
+        {currentImage}
+        <img
+          className="leftArrow"
+          src={previousArrow}
+          alt="image précédente"
+          onClick={prevSlide}
+        />
+        <img
+          className="rightArrow"
+          src={nextArrow}
+          alt="image suivante"
+          onClick={nextSlide}
+        />
+        <p className="caroussel-index">
+          {current + 1}/{length}
+        </p>
+      </div>
+    );
+  } else {
+    return <div className="caroussel-container">{currentImage}</div>;
+  }
 };
 
 export default Caroussel;

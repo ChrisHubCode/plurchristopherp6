@@ -9,7 +9,7 @@ import "./Home.css";
 console.log(housings);
 const Home = () => {
   return (
-    <section>
+    <section className="house-main">
       <section>
         <Land
           image={cliffs}

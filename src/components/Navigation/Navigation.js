@@ -1,20 +1,30 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import logo from "../../assets/logopink.png";
 import "./Navigation.css";
 
 const Navigation = (props) => {
   return (
     <nav className="navBar">
-      <div>
-        <img src={logo} alt="logo kasa" />
+      <div className="logo-div">
+        <img className="logo-kasa" src={logo} alt="logo kasa" />
       </div>
       <ul>
-        <NavLink to="/">
-          <li>Accueil</li>
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "underline" : ""
+          }
+        >
+          <li>ACCUEIL</li>
         </NavLink>
-        <NavLink to="/About">
-          <li>A Propos</li>
+        <NavLink
+          to="/About"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "underline" : ""
+          }
+        >
+          <li>A PROPOS</li>
         </NavLink>
       </ul>
     </nav>

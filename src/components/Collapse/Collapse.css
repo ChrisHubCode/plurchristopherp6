@@ -1,20 +1,53 @@
 .collapse {
     display: flex;
     flex-direction: column;
+    width: 100%;
     
 }
 .tape {
     background-color: #FF6060;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border-radius: 5px;
+}
+.tape:hover {
+    cursor: pointer;
 }
 .tape p {
     color: white;
 }
-.collapse_open {
-    background-color: blue;
+.collapse-description, .equipments-list {
+    background-color: #F6F6F6;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-left: 11px;
+    padding-bottom: 52px;
+    color: #FF6060;
+    line-height: 1.3em;
+    
+}
+.collapse-open {
+    display: flex;
+    max-height: 400px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    overflow: hidden;
 }
 .collapse-close {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.arrow {
+    transition: 0.5s;
+    width: 16px;
+
+}
+.arrow-up {
+    transform: rotate(180deg);
     
 }

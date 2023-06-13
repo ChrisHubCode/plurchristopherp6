@@ -1,0 +1,82 @@
+.house-section {
+    padding-top: 27px;
+}
+.info-details {
+    padding-bottom: 16px;
+    width: 100%;
+}
+.details {
+    color: #FF6060;
+    padding-top: 15px;
+}
+.details-title {
+    font-size: 18px;
+}
+.details-location {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.host-and-stars {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+.host {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5%;
+}
+.host-name {
+    color: #FF6060;
+    width: 50%;
+    font-size: 12px;
+    text-align: end;
+}
+.host-photo {
+    border-radius: 90px;
+    width: 32px;
+}
+.collapses-house {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 64px;
+}
+
+
+@media screen and (min-width:900px) {
+    .info-details {
+        display: flex;
+        justify-content: space-between;
+    }
+    .details {
+        width: 80%;
+    }
+    .details-title {
+        font-size: 36px;
+    }
+    .details-location {
+        font-size: 18px;
+    }
+    .host-and-stars {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: end;
+        width: 20%;
+    }
+    .host-name {
+        font-size: 18px;
+    }
+    .host-photo {
+        width: 64px;
+    }
+    .collapses-house {
+        flex-direction: row;
+        width: 100%;
+    }
+}

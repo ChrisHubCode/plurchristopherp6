@@ -1,0 +1,21 @@
+.about-section {
+    padding-top: 20px;
+}
+.about-collapses {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 168px;
+}
+
+@media screen and (min-width: 600px) {
+    .about-section {
+        padding-top: 44px;
+    }
+    .about-collapses {
+        gap: 31px;
+        padding-top: 31px;
+        padding-bottom: 201px;
+    }
+}

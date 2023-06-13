@@ -7,14 +7,15 @@
 
 }
 .error-number {
-    font-size: 288px;
+    font-size: 30vw;
+    font-weight: 700;
 }
 .error-message {
-    font-size: 36px;
+    font-size: 3vw;
 }
 .error-link {
     color: #FF6060;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 10vw;
+    padding-bottom: 20vw;
     text-decoration: underline;
 }

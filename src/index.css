@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 40px;
+  padding: 3%;
   font-family:"Montserrat";
   
 }
