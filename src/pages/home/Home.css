@@ -1,5 +1,5 @@
 .house-main {
-    padding-top: 16px;
+    padding: 16px 3% 0 3%;
 }
 .housingsContainer {
     margin: auto;
@@ -17,12 +17,8 @@
     }
     .housingsContainer {
         background-color: #F6F6F6;
-        padding-top: 1em;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 }
-@media screen and (min-width: 900px) {
-    .housingsContainer {
-        padding-top: 2em;
-        padding-bottom: 1em;
-    }
-}
+

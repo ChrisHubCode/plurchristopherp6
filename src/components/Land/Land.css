@@ -1,5 +1,6 @@
 .land-container{
-    max-height: 25vw;
+    /*max-height: 25vw;*/
+    height: 111px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -13,23 +14,28 @@
     filter: brightness(80%);
     
 }
-.land-container p {
+.land-container h1 {
     position: absolute;
     left: 3%;
     color: white;
-    font-size: 1.8em;
+    font-size: 1.4em;
     width: 55%;
+    text-decoration: none;
+    font-weight: 400;
     
 }
 
 
 @media screen and (min-width:600px) {
-    .land-container p {
+    .land-container h1 {
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
         display: flex;
         justify-content: center;
         font-size: 4vw;
+    }
+    .land-container {
+        height: 223px;
     }
 }

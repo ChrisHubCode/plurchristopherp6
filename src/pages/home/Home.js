@@ -13,7 +13,7 @@ const Home = () => {
       <section>
         <Land
           image={cliffs}
-          description="Photo d'un paysages représentant des falaises"
+          description="Photo d'un paysage représentant des falaises"
           title="Chez vous, partout et ailleurs"
         />
       </section>
