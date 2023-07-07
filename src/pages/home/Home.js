@@ -1,7 +1,6 @@
 import React from "react";
 import Land from "../../components/Land/Land";
 import cliffs from "../../assets/landcliffs.png";
-import { getAll } from "../../data/dataHousings";
 import Card from "../../components/Card/Card";
 import housings from "../../data/logements.json";
 import "./Home.css";

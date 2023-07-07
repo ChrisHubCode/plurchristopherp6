@@ -1,6 +1,5 @@
 import React from "react";
 import arrowDown from "../../assets/vectordown.png";
-import arrowUp from "../../assets/vectorup.png";
 import "./Collapse.css";
 import { useState } from "react";
 
@@ -10,6 +9,7 @@ const Collapse = (props) => {
     close((current) => !current);
   }
 
+  //le collapse est modifié selon son contenu
   let collapseContent;
   if (props.collapseType === "description") {
     collapseContent = <p className="collapse-description">{props.content}</p>;

@@ -16,7 +16,6 @@ const House = () => {
   console.log(found);
 
   if (!found) {
-    console.log("pas ok");
     return <Navigate replace to="/Error" />;
   }
   return (

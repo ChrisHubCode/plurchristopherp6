@@ -8,7 +8,7 @@ const Card = (props) => {
       <article className="card">
         <img src={props.image} alt={props.title} />
         <h2 className="card-title">{props.title}</h2>
-      </article>{" "}
+      </article>
     </NavLink>
   );
 };

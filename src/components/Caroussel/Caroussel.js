@@ -29,6 +29,7 @@ const Caroussel = (props) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   }
 
+  //les flêches et l'index n'apparaissent pas si il n'y a q'une seule photo
   if (length > 1) {
     return (
       <div className="caroussel-container">
